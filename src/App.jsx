@@ -20,7 +20,6 @@ const App = () => {
 
   const handleSubmit = (e) => {
     console.log('Form data submitted:', formData);
-    alert(`Registration successful for ${formData.fname} ${formData.lname}!`);
   };
 
   const handleReset = () => {
